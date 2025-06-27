@@ -1,0 +1,16 @@
+{
+  "width": {
+    "value": "375px",
+    "type": "dimension"
+  },
+  "radius": {
+    "IOS": {
+      "value": "44px",
+      "type": "dimension"
+    },
+    "Android": {
+      "value": "28px",
+      "type": "dimension"
+    }
+  }
+}
