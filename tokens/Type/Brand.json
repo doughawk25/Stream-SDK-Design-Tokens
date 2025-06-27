@@ -1,0 +1,58 @@
+{
+  "family": {
+    "Primary": {
+      "value": "Inter",
+      "type": "text"
+    }
+  },
+  "weight": {
+    "regular": {
+      "value": "440px",
+      "type": "dimension"
+    },
+    "medium": {
+      "value": "500px",
+      "type": "dimension"
+    },
+    "bold": {
+      "value": "570px",
+      "type": "dimension"
+    }
+  },
+  "size": {
+    "heading": {
+      "lg": {
+        "value": "24px",
+        "type": "dimension"
+      },
+      "md": {
+        "value": "20px",
+        "type": "dimension"
+      },
+      "sm": {
+        "value": "18px",
+        "type": "dimension"
+      }
+    },
+    "body": {
+      "lg": {
+        "value": "16px",
+        "type": "dimension"
+      },
+      "md": {
+        "value": "14px",
+        "type": "dimension"
+      },
+      "sm": {
+        "value": "12px",
+        "type": "dimension"
+      }
+    },
+    "caption": {
+      "default": {
+        "value": "10px",
+        "type": "dimension"
+      }
+    }
+  }
+}

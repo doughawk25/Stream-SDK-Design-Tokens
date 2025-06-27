@@ -1,0 +1,11 @@
+{
+  "tokenSetOrder": [
+    "Color/LT",
+    "Size/Defaut",
+    "Device/mobile",
+    "Device/tablet",
+    "Type/Brand",
+    "User Names/Name",
+    "User Names/Username"
+  ]
+}

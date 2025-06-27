@@ -1,0 +1,566 @@
+{
+  "Brand": {
+    "Brand": {
+      "value": "#005fff",
+      "type": "color"
+    },
+    "Green": {
+      "value": "#03c48d",
+      "type": "color"
+    },
+    "Red": {
+      "value": "#ef4444",
+      "type": "color"
+    },
+    "Yellow": {
+      "value": "#ffd646",
+      "type": "color"
+    },
+    "Black": {
+      "value": "#00070e",
+      "type": "color",
+      "Accent": {
+        "value": "#1e262e",
+        "type": "color"
+      },
+      "On Accent": {
+        "value": "{Brand.White}",
+        "type": "color"
+      },
+      "Container": {
+        "value": "#ececec",
+        "type": "color"
+      },
+      "On Container": {
+        "value": "{Brand.Black}",
+        "type": "color"
+      }
+    },
+    "White": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "Neutral": {
+      "value": "#5e676e",
+      "type": "color",
+      "Neutral On Container": {
+        "value": "{Brand.Neutral}",
+        "type": "color"
+      },
+      "Container": {
+        "value": "#f8f8f8",
+        "type": "color"
+      },
+      "Accent": {
+        "value": "{Brand.Neutral}",
+        "type": "color"
+      },
+      "On Accent": {
+        "value": "{Brand.White}",
+        "type": "color"
+      }
+    },
+    "Primary": {
+      "Accent": {
+        "value": "{Brand.Brand}",
+        "type": "color"
+      },
+      "Container": {
+        "value": "#e5efff",
+        "type": "color"
+      },
+      "On Container": {
+        "value": "{Brand.Brand}",
+        "type": "color"
+      },
+      "On Accent": {
+        "value": "{Brand.White}",
+        "type": "color"
+      }
+    },
+    "Success": {
+      "On Success Container": {
+        "value": "{Brand.Green}",
+        "type": "color"
+      },
+      "Accent Container": {
+        "value": "#cdf3e8",
+        "type": "color"
+      },
+      "Accent": {
+        "value": "{Brand.Green}",
+        "type": "color"
+      },
+      "On Accent": {
+        "value": "{Brand.White}",
+        "type": "color"
+      }
+    },
+    "Alert": {
+      "On Container": {
+        "value": "{Brand.Red}",
+        "type": "color"
+      },
+      "Container": {
+        "value": "#fcdada",
+        "type": "color"
+      },
+      "Accent": {
+        "value": "{Brand.Red}",
+        "type": "color"
+      },
+      "On Accent": {
+        "value": "{Brand.White}",
+        "type": "color"
+      }
+    },
+    "Alpha": {
+      "Opacity-8": {
+        "value": "#00070e0a",
+        "type": "color"
+      },
+      "Opacity-12": {
+        "value": "#00070e1f",
+        "type": "color"
+      },
+      "Opacity-16": {
+        "value": "#00070e29",
+        "type": "color"
+      },
+      "Opacity-24": {
+        "value": "#00070e3d",
+        "type": "color"
+      },
+      "Opacity-32": {
+        "value": "#00070e52",
+        "type": "color"
+      },
+      "Opacity-48": {
+        "value": "#00070e7a",
+        "type": "color"
+      },
+      "Opacity-64": {
+        "value": "#00070ea3",
+        "type": "color"
+      },
+      "Opacity-72": {
+        "value": "#00070eb8",
+        "type": "color"
+      },
+      "Opacity-80": {
+        "value": "#00070ecc",
+        "type": "color"
+      },
+      "Inverted": {
+        "Opacity-4": {
+          "value": "#ffffff0a",
+          "type": "color"
+        },
+        "Opacity-8": {
+          "value": "#ffffff14",
+          "type": "color"
+        },
+        "Opacity-12": {
+          "value": "#ffffff1f",
+          "type": "color"
+        },
+        "Opacity-16": {
+          "value": "#ffffff29",
+          "type": "color"
+        },
+        "Opacity-24": {
+          "value": "#ffffff3d",
+          "type": "color"
+        },
+        "Opacity-32": {
+          "value": "#ffffff52",
+          "type": "color"
+        },
+        "Opacity-48": {
+          "value": "#ffffff7a",
+          "type": "color"
+        },
+        "Opacity-64": {
+          "value": "#ffffffa3",
+          "type": "color"
+        },
+        "Opacity-72": {
+          "value": "#ffffffb8",
+          "type": "color"
+        },
+        "Opacity-80": {
+          "value": "#ffffffcc",
+          "type": "color"
+        },
+        "Opacity-95": {
+          "value": "#fffffff2",
+          "type": "color"
+        }
+      }
+    },
+    "Warning": {
+      "Accent": {
+        "value": "{Brand.Yellow}",
+        "type": "color"
+      },
+      "On Accent": {
+        "value": "{Brand.White}",
+        "type": "color"
+      },
+      "Container": {
+        "value": "#fff7da",
+        "type": "color"
+      },
+      "On Container": {
+        "value": "{Brand.Yellow}",
+        "type": "color"
+      }
+    }
+  },
+  "Text ": {
+    "Primary": {
+      "value": "{Brand.Black}",
+      "type": "color"
+    },
+    "Secondary": {
+      "value": "{Brand.Alpha.Opacity-64}",
+      "type": "color"
+    },
+    "Tertiary": {
+      "value": "{Brand.Alpha.Opacity-48}",
+      "type": "color"
+    }
+  },
+  "State": {
+    "Primary": {
+      "Opacity-08": {
+        "value": "#005fff14",
+        "type": "color"
+      },
+      "Opacity-12": {
+        "value": "#005fff1f",
+        "type": "color"
+      },
+      "Opacity-16": {
+        "value": "#005fff29",
+        "type": "color"
+      }
+    },
+    "Success": {
+      "Opacity-08": {
+        "value": "#03c48d14",
+        "type": "color"
+      },
+      "Opacity-12": {
+        "value": "#03c48d1f",
+        "type": "color"
+      },
+      "Opacity-16": {
+        "value": "#03c48d29",
+        "type": "color"
+      }
+    },
+    "Alert": {
+      "Opacity-08": {
+        "value": "#ef444414",
+        "type": "color"
+      },
+      "Opacity-12": {
+        "value": "#ef44441f",
+        "type": "color"
+      },
+      "Opacity-16": {
+        "value": "#ef444429",
+        "type": "color"
+      }
+    },
+    "Neutral": {
+      "Opacity-08": {
+        "value": "#5e676e14",
+        "type": "color"
+      },
+      "Opacity-12": {
+        "value": "#5e676e1f",
+        "type": "color"
+      },
+      "Opacity-16": {
+        "value": "#5e676e29",
+        "type": "color"
+      }
+    }
+  },
+  "Background": {
+    "Secondary": {
+      "value": "#fcfcfc",
+      "type": "color"
+    },
+    "Tertiary": {
+      "value": "#fefefe",
+      "type": "color"
+    },
+    "Primary": {
+      "value": "#fbfbfb",
+      "type": "color"
+    }
+  },
+  "Surface": {
+    "Primary": {
+      "value": "{Inverted.Opacity-48}",
+      "type": "color"
+    },
+    "Secondary": {
+      "value": "{Inverted.Opacity-95}",
+      "type": "color"
+    },
+    "Tertiary": {
+      "value": "#fefefe",
+      "type": "color"
+    }
+  },
+  "Border": {
+    "Primary": {
+      "value": "{Colors.Alpha.Opacity-12}",
+      "type": "color"
+    },
+    "Canvas": {
+      "value": "{Background.Secondary}",
+      "type": "color"
+    }
+  },
+  "Caption": {
+    "value": "Caption",
+    "type": "text"
+  },
+  "Colors": {
+    "Brand": {
+      "value": "#005fff",
+      "type": "color"
+    },
+    "Green": {
+      "value": "#03c48d",
+      "type": "color"
+    },
+    "Red": {
+      "value": "#ef4444",
+      "type": "color"
+    },
+    "Yellow": {
+      "value": "#ffd646",
+      "type": "color"
+    },
+    "Black": {
+      "value": "#00070e",
+      "type": "color",
+      "Accent": {
+        "value": "#1e262e",
+        "type": "color"
+      },
+      "On Accent": {
+        "value": "{Colors.White}",
+        "type": "color"
+      },
+      "Container": {
+        "value": "#ececec",
+        "type": "color"
+      },
+      "On Container": {
+        "value": "{Colors.Black}",
+        "type": "color"
+      }
+    },
+    "White": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "Neutral": {
+      "value": "#5e676e",
+      "type": "color",
+      "Neutral On Container": {
+        "value": "{Colors.Neutral}",
+        "type": "color"
+      },
+      "Container": {
+        "value": "#f8f8f8",
+        "type": "color"
+      },
+      "Accent": {
+        "value": "{Colors.Neutral}",
+        "type": "color"
+      },
+      "On Accent": {
+        "value": "{Colors.White}",
+        "type": "color"
+      }
+    },
+    "Primary": {
+      "Accent": {
+        "value": "{Colors.Brand}",
+        "type": "color"
+      },
+      "Container": {
+        "value": "#e5efff",
+        "type": "color"
+      },
+      "On Container": {
+        "value": "{Colors.Brand}",
+        "type": "color"
+      },
+      "On Accent": {
+        "value": "{Colors.White}",
+        "type": "color"
+      }
+    },
+    "Success": {
+      "On Success Container": {
+        "value": "{Colors.Green}",
+        "type": "color"
+      },
+      "Accent Container": {
+        "value": "#f2fbf9",
+        "type": "color"
+      },
+      "Accent": {
+        "value": "{Colors.Green}",
+        "type": "color"
+      },
+      "On Accent": {
+        "value": "{Colors.White}",
+        "type": "color"
+      }
+    },
+    "Alert": {
+      "On Container": {
+        "value": "{Colors.Red}",
+        "type": "color"
+      },
+      "Container": {
+        "value": "#fcdada",
+        "type": "color"
+      },
+      "Accent": {
+        "value": "{Colors.Red}",
+        "type": "color"
+      },
+      "On Accent": {
+        "value": "{Colors.White}",
+        "type": "color"
+      }
+    },
+    "Alpha": {
+      "Opacity-4": {
+        "value": "#00070e0a",
+        "type": "color"
+      },
+      "Opacity-12": {
+        "value": "#00070e1f",
+        "type": "color"
+      },
+      "Opacity-16": {
+        "value": "#00070e29",
+        "type": "color"
+      },
+      "Opacity-24": {
+        "value": "#00070e3d",
+        "type": "color"
+      },
+      "Opacity-32": {
+        "value": "#00070e52",
+        "type": "color"
+      },
+      "Opacity-48": {
+        "value": "#00070e7a",
+        "type": "color"
+      },
+      "Opacity-64": {
+        "value": "#00070ea3",
+        "type": "color"
+      },
+      "Opacity-72": {
+        "value": "#00070eb8",
+        "type": "color"
+      },
+      "Opacity-80": {
+        "value": "#00070ecc",
+        "type": "color"
+      }
+    },
+    "Warning": {
+      "Accent": {
+        "value": "{Colors.Yellow}",
+        "type": "color"
+      },
+      "On Accent": {
+        "value": "{Colors.White}",
+        "type": "color"
+      },
+      "Container": {
+        "value": "#fff7da",
+        "type": "color"
+      },
+      "On Container": {
+        "value": "{Colors.Yellow}",
+        "type": "color"
+      }
+    }
+  },
+  "Text": {
+    "Primary": {
+      "value": "{Colors.Black}",
+      "type": "color"
+    },
+    "Secondary": {
+      "value": "{Colors.Alpha.Opacity-64}",
+      "type": "color"
+    },
+    "Tertiary": {
+      "value": "{Colors.Alpha.Opacity-48}",
+      "type": "color"
+    }
+  },
+  "Inverted": {
+    "Opacity-8": {
+      "value": "#ffffff14",
+      "type": "color"
+    },
+    "Opacity-12": {
+      "value": "#ffffff1f",
+      "type": "color"
+    },
+    "Opacity-16": {
+      "value": "#ffffff29",
+      "type": "color"
+    },
+    "Opacity-24": {
+      "value": "#ffffff3d",
+      "type": "color"
+    },
+    "Opacity-32": {
+      "value": "#ffffff52",
+      "type": "color"
+    },
+    "Opacity-48": {
+      "value": "#ffffff7a",
+      "type": "color"
+    },
+    "Opacity-64": {
+      "value": "#ffffffa3",
+      "type": "color"
+    },
+    "Opacity-72": {
+      "value": "#ffffffb8",
+      "type": "color"
+    },
+    "Opacity-80": {
+      "value": "#ffffffcc",
+      "type": "color"
+    },
+    "Opacity-95": {
+      "value": "#fffffff2",
+      "type": "color"
+    },
+    "Opacity-4": {
+      "value": "#ffffff0a",
+      "type": "color"
+    }
+  }
+}
